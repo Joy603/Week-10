@@ -1,9 +1,9 @@
 angular.module('directings')
-.directive('post', function(){
+.directive('postDisplay', function(){
   return {
     scope: {
-      title: '=',
-      username: '='
+      post: '=',
+      body: '='
     },
     templateUrl: 'templates/post.html'
   };

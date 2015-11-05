@@ -13,7 +13,7 @@ describe('post directive', function(){
       userName: "some username"
     };
 
-    var element = angular.element('<post title="post.title" username="post.userName"></post>');
+    var element = angular.element('<post-display post="post"></post-display>');
     compiledDirective = compile(element)(scope);
     scope.$digest();
 
