@@ -5,6 +5,6 @@ angular.module('directings')
       title: '=',
       username: '='
     },
-    template: "<strong>{{ title }}</strong><br><tt>by {{ username }}</tt>"
+    templateUrl: 'templates/post.html'
   };
 });
