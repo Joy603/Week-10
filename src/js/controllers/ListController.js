@@ -4,4 +4,8 @@ angular.module('directings')
   lc.posts = posts;
   posts.get();
 
+  lc.display = function(post){
+    posts.current = post;
+  };
+
 }]);
